@@ -1,16 +1,16 @@
-# Automated Path Planning System using KITTI Dataset
+# Autonomous Vehicle Perception Pipeline using Stereo Vision
 
 ## Introduction
-This project implements an automated path planning system using the KITTI dataset. The system processes stereo camera inputs to create depth maps, detect obstacles, generate cost maps, and plan optimal navigation paths for autonomous vehicles.
+This project implements a comprehensive perception pipeline for autonomous vehicles using the KITTI dataset. The system utilizes stereo camera inputs to create dense depth maps, detect obstacles, and generate environmental understanding through cost maps, providing essential perception capabilities for autonomous navigation.
 
 ## Demo Video
 ![Demo](output/processed_sequence.gif)
 
 Outputs:
-- Stereo image processing
-- Depth estimation maps
-- Obstacle detection and tracking
-- Path planning visualization
+- Stereo vision processing
+- Dense depth estimation
+- 3D obstacle detection and tracking
+- Environmental mapping visualization
 
 ## Components
 ![System Flow](images/image.png)
@@ -30,15 +30,15 @@ The system consists of six main components:
    - Projects obstacles to 3D space
 
 4. **Cost Map Generation**
-   - Creates navigation cost maps
+   - Creates environmental occupancy grids
    - Integrates obstacle information
 
-5. **Path Planning**
-   - Plans optimal navigation paths
-   - Avoids detected obstacles
+5. **Environmental Mapping**
+   - Combines perception outputs
+   - Builds scene understanding
 
 6. **Integration Pipeline**
-   - Combines all components
+   - Synchronizes all perception components
    - Processes video sequences
 
 ## Running Individual Components
