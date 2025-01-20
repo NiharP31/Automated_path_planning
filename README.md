@@ -13,7 +13,7 @@ Outputs:
 - Path planning visualization
 
 ## Components
-![System Flow](flow_diagram.png)
+![System Flow](images/image.png)
 
 The system consists of six main components:
 
