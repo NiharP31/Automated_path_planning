@@ -4,7 +4,7 @@
 This project implements an automated path planning system using the KITTI dataset. The system processes stereo camera inputs to create depth maps, detect obstacles, generate cost maps, and plan optimal navigation paths for autonomous vehicles.
 
 ## Demo Video
-[Demo Video Link - Coming Soon]
+![Demo](output/processed_sequence.gif)
 
 Outputs:
 - Stereo image processing
